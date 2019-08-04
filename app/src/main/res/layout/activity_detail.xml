@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/tv_title_detail_activity"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/iv_detail_activity"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/tv_title_detail_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="14dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tv_update_date_detail_activity"
+        android:layout_below="@id/iv_detail_activity"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true" />
+
+
+
+    <TextView
+        android:id="@+id/tv_abstract_detail_activity"
+        android:layout_width="wrap_content"
+        android:textStyle="italic"
+        android:layout_below="@id/tv_update_date_detail_activity"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="12dp"
+        android:id="@+id/tv_section_detail_activity"
+        android:layout_below="@id/tv_abstract_detail_activity"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
